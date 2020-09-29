@@ -13,6 +13,6 @@ async function bootstrap() {
   app.setBaseViewsDir(join(__dirname, '..', 'views'));
   app.setViewEngine('hbs');
 
-  await app.listen(configService.get('SERVER_PORT'));
+  await app.listen(configService.get('SERVER_PORT') || 3000);
 }
 bootstrap();

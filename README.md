@@ -1,20 +1,19 @@
 # About
 
-This is simple implementation of showing currency application.
-It shows [Privatbank](https://en.privatbank.ua/) popular currencies (for private & legal).
+This is a very simple implementation of showing currency application (code sample).
+It shows [Privatbank](https://en.privatbank.ua/) popular currencies.
 Based on Node.js and Nest.js framework.
 
 ## Todo
 Not realized:
 - logging
-- errors handling
-- add tests
-- dockerize app
-- change view from template to spa & pages to json endpoints
+- complete errors handling
+- full tests coverage
+- dockerized app
+- to move from mvc template to API & SPA
 
 ## Requirements
-- node.js & npm
-
+Tested on node.js (v14.12.0) & npm (v6.14.8)
 
 ## Installation
 
